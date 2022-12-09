@@ -1,0 +1,30 @@
+@page {
+	size: 8.5in 11in;
+	margin: 0.5in;
+}
+
+header, nav, div.outer-box, div.inner-box, footer {
+	display: none;
+	
+}
+.skillList {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: row wrap;
+}
+.skillList > * {
+	flex: 1 1 200px;
+	margin: 15px 0px;
+
+}
+th {
+	color: black;
+}
+h1 {
+	font-size: 36pt;
+}
+#resume {
+	page-break-before: always;
+	width:100%;
+}

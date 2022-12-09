@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<header class="row">
+		<img src="img/Alaska-cut.jpg" alt="" class="center-margins">
+		<nav class="horizontal row">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="skills.html">Skills</a></li>
+				<li><a href="myWork.html">My Work</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="content center-margins">
+
+		<form action="http://example.com/" method="post" id="contactForm">
+			<fieldset>
+				<legend>Contact Me</legend>
+				<div class="field">
+					<label>Name</label>
+					<input type="text" name="name" id="name" placeholder="First and Last Name">
+				</div>
+				<div class="field">
+					<label for="appealing">Was the portfolio appealing?</label>
+					<fieldset class="optGroup">
+						<label for="aYes">Yes</label>
+						<input type="radio" name="appealing" id="aYes" value="yes" />
+						<label for="aNo">No</label>
+						<input type="radio" name="appealing" id="aNo" value="no" />
+					</fieldset>
+
+				</div>
+				<div class="field">
+					<label for="hire">Would you like to interview me?</label>
+					<fieldset class="optGroup">
+						<label for="hYes">Yes</label>
+						<input type="radio" name="hire" id="hYes" value="yes" />
+						<label for="hNo">No</label>
+						<input type="radio" name="hire" id="hNo" value="no" />
+					</fieldset>
+				</div>
+				<div class="field">
+					<label >What was your favorite page?</label>
+					<select name="fav" id="favPage">
+						<option value="Home">Home Page</option>
+						<option value="About">About Page</option>
+						<option value="Skills">Skills Page</option>
+						<option value="Work">Work Page</option>
+						<option value="None">They all sucked</option>
+						<option value="All">They were all top notch</option>
+					</select>
+				</div>
+				<div class="field">
+					<input type="checkbox" name="bear" id="bear">
+					<label> Check if you've seen a bear combing his hair, down by the bay.</label>
+				</div>
+				<div class="field">
+					<h3>Comments</h3>
+					<textarea name="body" id="body" cols="30" rows="10"></textarea>
+				</div>
+			</fieldset>
+		</form>
+		<!-- class="flex-row" -->
+		<!-- class="flex-container" -->
+
+	</div>
+
+
+	<footer>
+		<address>
+			123 Sesame Street &#9881;
+			Higgly Town, MT 123456 &#9881;
+			<a href="tel:+14064026303">(406) 402-6303</a>
+
+		</address>
+	</footer>
+</body>
+
+
+</html>
